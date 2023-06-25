@@ -1,5 +1,7 @@
 #!/bin/bash
 sudo apt update -y
+sudo apt install software-properties-common -y
+sudo add-apt-repository ppa:deadsnakes/ppa -y
 sudo apt install -y python3-pip
 
 python3 -m pip install --upgrade pip
